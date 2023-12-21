@@ -21,7 +21,7 @@ nav {
     backdrop-filter: blur(100px);
     justify-content: space-around;
     color: #fff;
-    height: 50px;
+    height: 60px;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -408,7 +408,7 @@ button:hover {
     width: 40px;
     height: 40px;
     background: white;
-    border-radius: 10px;
+    border-radius: 50%;
     transition: 0.5s;
 }
 
@@ -419,9 +419,7 @@ button:hover {
 .footer-content {
     text-align: center;
 }
-
-
-
+/* End - Footer */
 
 /* Responsive Breakpoint */
 /* ukuran tablet */
@@ -526,7 +524,7 @@ button:hover {
         width: 100%;
     }
 
-    .home-img img {
+    .home .home-img {
         width: 270px;
         height: 270px;
     }
