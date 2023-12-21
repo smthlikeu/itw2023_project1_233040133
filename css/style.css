@@ -373,7 +373,6 @@ button:hover {
 .contact-item {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     gap: 25px;
     margin-bottom: 62px;
 }
@@ -389,9 +388,6 @@ button:hover {
     height: 22px;
 }
 
-.contact-item-detail {
-    width: 400px;
-}
 /* End - Contact */
 
 /* Start - Footer */
@@ -438,14 +434,11 @@ button:hover {
 
     .skills-content {
         flex-direction: column;
-        margin-top: 50px;
+        margin: 50px auto 0;
         gap: 20px;
     }
 
-    .skills-content img {
-        height: 150px;
-        width: 150px;
-    }
+    
 
     .project-content {
         margin-top: 50px;
@@ -467,7 +460,7 @@ button:hover {
     }
     
     .contact-right {
-        align-items: center;
+        margin: auto;
     }
 
     
@@ -504,11 +497,12 @@ button:hover {
     .home-wrap {
         flex-direction: column-reverse;
         padding: 100px 0;
+        margin: auto;
     }
 
     .home-img img {
-        width: 350px;
-        height: 350px;
+        width: 270px;
+        height: 270px;
     }
 
     .project-wrap {
