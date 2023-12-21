@@ -21,7 +21,7 @@ nav {
     backdrop-filter: blur(100px);
     justify-content: space-around;
     color: #fff;
-    height: 60px;
+    height: 50px;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -421,6 +421,9 @@ button:hover {
 }
 /* End - Footer */
 
+
+
+
 /* Responsive Breakpoint */
 /* ukuran tablet */
 @media screen and (max-width: 768px) {
@@ -483,9 +486,6 @@ button:hover {
     .contact-right {
         margin: auto;
     }
-
-    
-
 }
    
 
