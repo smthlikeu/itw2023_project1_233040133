@@ -11,6 +11,7 @@ body {
     font-family: 'PlaypenSans', Arial, Helvetica, sans-serif;
     font: 18px/36px ;
     height: 100vh;
+    overflow: hidden;
 }
 
 h1 {
